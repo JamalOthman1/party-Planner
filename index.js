@@ -15,8 +15,6 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 function fetchParties() {
-    // Example: Fetch parties from the API
-    // Replace this URL with your actual API endpoint
     fetch('https://fsa-crud-2aa9294fe819.herokuapp.com/api/2109-CPU-RM-WEB-PT/recipes.')
         .then(response => response.json())
         .then(data => {
@@ -36,8 +34,7 @@ function fetchParties() {
 }
 
 function addParty(partyData) {
-    // Example: POST request to add a new party
-    // Replace this URL with your actual API endpoint
+    
     fetch('https://fsa-crud-2aa9294fe819.herokuapp.com/api/2109-CPU-RM-WEB-PT/recipes.', {
         method: 'POST',
         headers: {
@@ -52,8 +49,6 @@ function addParty(partyData) {
 }
 
 function deleteParty(id) {
-    // Example: DELETE request to delete a party
-    // Replace this URL with your actual API endpoint
     fetch(`https://fsa-crud-2aa9294fe819.herokuapp.com/api/2109-CPU-RM-WEB-PT/recipes./${id}`, {
         method: 'DELETE',
     })
