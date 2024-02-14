@@ -1,0 +1,17 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#party-list {
+    margin: 20px 0;
+}
+
+.party-item {
+    margin-bottom: 10px;
+}
+
+.delete-button {
+    margin-left: 20px;
+    color: red;
+    cursor: pointer;
+}
